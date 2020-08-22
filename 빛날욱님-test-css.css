@@ -1,3 +1,5 @@
+@import
+
 /*search*/
 
 header #right-search-form>input[type=text] {
@@ -97,8 +99,8 @@ header #header-bar a.dropdown-toggle {
 }
  /*공간 그 트게더 공간 글자 사이*/
 #main .menu-wrapper .spacer {
-    background: #a4b1ff;
-    display: block;
+    background: #a4b1ff;            /*맞아 민이 나빠 ;; 정말 민이는 이해 할 수 없어;;*/
+    display: block;                   /*트게더 */
     height: 0.35em;
 }
 
@@ -814,7 +816,7 @@ a {
 
 
 
-@font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Binggrae-Bold'; src: url('http://aru0306.github.io/css/Jua-Regular.ttf') format('woff'); font-weight: normal; font-style: normal; }
 
 
 *{font-family:'Binggrae-Bold'}
