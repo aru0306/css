@@ -816,7 +816,12 @@ a {
 
 
 
-@font-face { font-family: 'Jua-Regular'; src: url('http://aru0306.github.io/css/Jua-Regular.ttf') format('ttf'); font-weight: normal; font-style: normal; }
+@font-face { 
+    font-family: 'Jua-Regular'; 
+    src: url('http://aru0306.github.io/css/Jua-Regular.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
 
 
 *{font-family:'Binggrae-Bold'}
