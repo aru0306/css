@@ -818,7 +818,7 @@ a {
 
 @font-face { 
     font-family: 'Jua'; 
-    src: url("http://aru0306.github.io/css/Jua-Regular.ttf") format("truetype"); 
+    src: url('https://aru0306.github.io/css/Jua-Regualr.woff') format('woff'); 
     font-weight: normal; 
     font-style: normal; 
 }
