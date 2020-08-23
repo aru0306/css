@@ -1056,19 +1056,20 @@ span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
 
 
 /*스크롤*/
-
+/*
 #movetotop img{display:none}
 
 #movetotop{display: inline-block;opacity:1;background:url(링크);    
     width: 80px;
       height: 80px;
       background-size: contain;
-    }   /*현재x*/
-
+    } */
+ /*현재x*/
+    
 
 body {
 
-    background: linear-gradient(to bottom, #eaf4ff, #9affd5);
+    background: linear-gradient(to top, #eaf4ff, #9affd5);
 
     /* 방향 = to bottom, to right, to left, to top */
 
@@ -1079,7 +1080,9 @@ body {
 /*큰틀*/
 
 #main #main-content>div.frame {
-    background: #fff;                       
+    
+    /*background: #dbffc6;*/
+    background: linear-gradient(to top, #9affd5,  #eaf4ff) !important;                   /*이거 게시판 배경색*/     
     border-right: 2px solid #f3bb6300;
     border-bottom: 2px solid #fceff600;
 }
@@ -1099,10 +1102,10 @@ body {
 
 #board-info #score-area {
     font-size: 14px;
-    color: #ceffe1;
+    color: #58af7c;
     font-weight: normal;
     vertical-align: middle;
-    line-height: 18px;
+    line-height: 20px;
     display: inline-block;
 }
 
