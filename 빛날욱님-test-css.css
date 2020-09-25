@@ -720,7 +720,7 @@ header .row>div:nth-child(1)>a {
 
     height: 50px;
 
-    background: url(https://i.ibb.co/QCL2Mt3/Untitled-1.png) no-repeat; /* url(로고 경로 입력) */
+    background: url(https://i.ibb.co/9gRWv6b/test.png) no-repeat; /* url(로고 경로 입력) */
 
     background-size: auto 50px;
 
@@ -810,8 +810,8 @@ input[type=radio],
 a {
  cursor: url(링크) 0 0, auto !important;    
 }
-*/  /*현재 x**/
 
+*/  /*현재 x**/
 
 
 
