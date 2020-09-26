@@ -2,7 +2,7 @@
 
 header #right-search-form>input[type=text] {
     position: relative;
-    border: 3px solid #a4b1ff;
+    border: 3px solid #d48545;
     background: #fff;
     font-size: 1.2em;
     padding: 0.2em 0.4em;
@@ -12,7 +12,7 @@ header #right-search-form>input[type=text] {
 /*search button*/
 
 header #right-search-form>#right-search-btn {
-    color: #a4b1ff;
+    color: #d48545;
     background: transparent;
     border: none;
     font-size: 2em;
@@ -32,9 +32,9 @@ header #header-bar #header-menu-right {
 /*ad ㅁ 윗줄*/  
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: #cee5ff;  /*상단줄에 네모 광고 글자 배경*/
+    background: #ffffff;  /*상단줄에 네모 광고 글자 배경*/
     padding: 4px 8px;
-    color: #a4b1ff;   /*상단줄에 네모 광고 글자 */
+    color: #d48545;   /*상단줄에 네모 광고 글자 */
     font-weight: bold;
 }
 
@@ -43,9 +43,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 header #header-bar>.row {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    border-top: 7px solid #a4b1ff;   /*상*/
-    background: #cee5ff;             /*중*/
-    border-bottom: 7px solid #a4b1ff;/*하*/
+    border-top: 7px solid #d48545;   /*상*/
+    background: #ffffff;             /*중*/
+    border-bottom: 7px solid #d48545;/*하*/
     border-right: 2px;
     border-radius: 18px;
 }
@@ -54,7 +54,7 @@ header #header-bar>.row {
 
 header #header-bar a.dropdown-toggle {
     display: inline-block;
-    color: #a4b1ff;         /*광고바 왼쪽에 최근 별등*/
+    color: #d48545;         /*광고바 왼쪽에 최근 별등*/
     text-decoration: none;
     padding: 0.3em 0;
 }
@@ -62,32 +62,32 @@ header #header-bar a.dropdown-toggle {
 /*left menu*/
 
 #main .menu-wrapper {
-    border-right: 5px solid #a4b1ff;    /*좌측 오른쪽 라인*/
-    border-bottom: 5px solid #a4b1ff;   /*좌측 하단   라인*/
+    border-right: 5px solid #d48545;    /*좌측 오른쪽 라인*/
+    border-bottom: 5px solid #d48545;   /*좌측 하단   라인*/
     margin-bottom: 0.8em;
-    border-left: 5px solid #a4b1ff;     /*좌측 왼쪽   라인*/
+    border-left: 5px solid #d48545;     /*좌측 왼쪽   라인*/
     border-radius: 15px 15px 0px 0px;
-    border-top: 5px solid #a4b1ff;      /*좌측 상단   라인*/
+    border-top: 5px solid #d48545;      /*좌측 상단   라인*/
 }
 
 #main .menu-wrapper>.header {
-    background: #a4b1ff;                /*트게더 전체 메뉴*/
-    color: #cee5ff;                     /*트게더 전체 메뉴 글자 색*/
+    background: #d48545;                /*트게더 전체 메뉴*/
+    color: #ffffff;                     /*트게더 전체 메뉴 글자 색*/
     padding: 0.5em 1.5em 0.5em 1.5em;
     font-weight: bold;
 }
 
 #main .menu-wrapper>a {
     display: block;
-    background: #cee5ff;                /*트게더 전체 메뉴 왼쪽 background 배경*/
+    background: #ffffff;                /*트게더 전체 메뉴 왼쪽 background 배경*/
     padding: 0.2em 1em 0.2em 0.8em;
     text-decoration: none;
-    color: #a4b1ff;                     /*글자 색이지 뭐야 ㅋ*/
-    border-bottom: 1px solid #cee5ff;   
+    color: #d48545;                     /*글자 색이지 뭐야 ㅋ*/
+    border-bottom: 1px solid #ffffff;   
 }
 
 #main .menu-wrapper>a>em {
-    color: #a4b1ff;                     /*그 갸 있자나 트게더 전체메뉴 ABC H 이런거 색*/
+    color: #d48545;                     /*그 갸 있자나 트게더 전체메뉴 ABC H 이런거 색*/
     text-decoration: none;
     font-style: normal;
     width: 24px;
@@ -97,7 +97,7 @@ header #header-bar a.dropdown-toggle {
 }
  /*공간 그 트게더 공간 글자 사이*/
 #main .menu-wrapper .spacer {
-    background: #a4b1ff;            /*맞아 민이 나빠 ;; 정말 민이는 이해 할 수 없어;;*/
+    background: #d48545;            /*맞아 민이 나빠 ;; 정말 민이는 이해 할 수 없어;;*/
     display: block;                   /*트게더 */
     height: 0.35em;
 }
@@ -107,7 +107,7 @@ header #header-bar a.dropdown-toggle {
     display: inline-block;
     text-align: center;
     font-size: 0.1em;
-    color: #a4b1ff;
+    color: #d48545;
     vertical-align: 0.2em;
 }
 
@@ -131,7 +131,7 @@ header #header-bar a.dropdown-toggle {
     float: left !important;
     margin-right: 15px;
     border-radius: 100px;
-    border: solid 6px #a4b1ff;
+    border: solid 6px #d48545;
     
 
 }
@@ -147,11 +147,11 @@ header #header-bar a.dropdown-toggle {
     font-size: 12px;
     font-weight: 700;
     line-height: 1;
-    color: #a4b1ff;
+    color: #d48545;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-color: #cee5ff;
+    background-color: #ffffff;
     border-radius: 10px;
 
 }
@@ -169,7 +169,7 @@ header #header-bar a.dropdown-toggle {
 
 #board-info #viewers-area {
     font-size: 14px;
-    color: #a4b1ff;               /*글자 색*/
+    color: #d48545;               /*글자 색*/
     font-weight: normal;
     vertical-align: middle;
     line-height: 18px;
@@ -201,11 +201,11 @@ header #header-bar a.dropdown-toggle {
 
 #board-info #board-info-bottom a {
     font-size: 12px;
-    color: #a4b1ff;                      /*그 하단 즐겨찾기 글자색*/
+    color: #d48545;                      /*그 하단 즐겨찾기 글자색*/
     display: inline-block;
     padding: 5 5px;
     text-decoration: none;
-    border-right: 1px solid #cee5ff;    /*칸갈이 색*/
+    border-right: 1px solid #ffffff;    /*칸갈이 색*/
 }
 
 #board-info h1 {
@@ -221,7 +221,7 @@ header #header-bar a.dropdown-toggle {
 /*게시판 헤더*/
 
 #article-content-wrapper>.header {
-    border-top: 7px solid #a4b1ff;
+    border-top: 7px solid #d48545;
     background: #f6f6f6;
     padding: 0.6em 0.8em;
     border-radius: 15px 15px 0 0;
@@ -232,12 +232,12 @@ header #header-bar a.dropdown-toggle {
 
 #article-reply-area > .header h5 {
     font-size: 14px;
-    color: #a4b1ff;
+    color: #d48545;
     font-weight: bold;
 }
 
 #article-reply-area > a {
-    color: #a4b1ff;
+    color: #d48545;
     text-decoration: none;
 }
 
@@ -270,7 +270,7 @@ header #header-bar a.dropdown-toggle {
     box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 1px 1px rgba(0,0,0,.16);
     text-align: left;
     border: 0;
-    border-top: 5px solid #a4b1ff;
+    border-top: 5px solid #d48545;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -283,17 +283,17 @@ header #header-bar a.dropdown-toggle {
 #article-list #article-list-category>a {
     display: inline-block;
     padding: 15px 34px;
-    background: #eaf4ff;
+    background: #fff6ea;
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-    color: #a4b1ff;
+    color: #d48545;
 }
 
-/*인기글네모*/
+/*인기글네모*/ 
 
 #article-list>.article-list-row.hot {
-    background-color: #cee5ff;
+    background-color: #ffffff;
 }
 #article-list>.article-list-row {
     text-align: center;
@@ -307,8 +307,8 @@ header #header-bar a.dropdown-toggle {
 #article-list>.article-list-row>.item>.list-title>.list-category {
     float: left;
     padding: 0 11px;
-    border-left: 1px solid #cee5ff;                       /*적은이름 왼 줄*/
-    border-right: 1px solid #cee5ff;                     /* 오른쪽 줄*/
+    border-left: 1px solid #ffffff;                       /*적은이름 왼 줄*/
+    border-right: 1px solid #ffffff;                     /* 오른쪽 줄*/
     text-align: center;
     min-height: 16px;
     line-height: 16px;
@@ -319,12 +319,12 @@ header #header-bar a.dropdown-toggle {
     text-align: center;
     display: table;
     width: 100%;                                            /*게시판 오른쪽 줄*/
-    border-right: 1px solid #eaf4ff;
+    border-right: 1px solid #fff6ea;
 }
 
 #article-list>.article-list-row>.item>.list-header {
     width: 40px;
-    border-left: 1px solid #eaf4ff;                        /*게시판 왼쪽 줄*/
+    border-left: 1px solid #fff6ea;                        /*게시판 왼쪽 줄*/
 }
 
 
@@ -342,7 +342,7 @@ header #header-bar a.dropdown-toggle {
     position: relative;
     text-align: center;
     padding: 0 5px;
-    color: #a4b1ff;
+    color: #d48545;
     word-break: break-word;
     border-radius: 1px;
     top: 2px;
@@ -354,8 +354,8 @@ header #header-bar a.dropdown-toggle {
 #article-list>.article-list-row>.item>.list-title>.list-writer {
     float: right;
     padding: 0 11px;
-    border-left: 1px solid #a4b1ff;
-    border-right: 1px solid #a4b1ff;
+    border-left: 1px solid #d48545;
+    border-right: 1px solid #d48545;
     text-align: center;
     min-height: 16px;
     line-height: 16px;
@@ -364,7 +364,7 @@ header #header-bar a.dropdown-toggle {
 /*작성자*/
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #a4b1ff;
+    color: #d48545;
     font-weight: bold;
 }
 
@@ -375,19 +375,19 @@ header #header-bar a.dropdown-toggle {
     position: relative;
     font-size: 11px;
     font-weight: 500;
-    color: #a4b1ff;         
+    color: #d48545;         
 }
 
 /*읽었던 글*/
 
 #article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #8589a1 !important;                          
+    color: #a18685 !important;                          
 }
 
 /*게시글*/
 
 #article-list>.article-list-row>.item>.list-title>a {
-    color: #374ab6 !important;
+    color: #b66a37 !important;
     text-decoration: none;
     line-height: 18px;
     word-break: break-all;
@@ -403,7 +403,7 @@ header #header-bar a.dropdown-toggle {
 /*추천수*/
 
 #article-list>.article-list-row>.item>.list-header>span {
-    background-color: #8f96be;
+    background-color: #b66a37;
     color: #fff;
     font-weight: bold;
     padding: 1px 5px;
@@ -416,10 +416,10 @@ header #header-bar a.dropdown-toggle {
 #article-list #article-list-menu>.btn.best {
     position: absolute;
     left: 0;
-    color: #8f96be;
+    color: #b66a37;
     background-image: none;
     background-color: transparent;
-    border-color: #8f96be;
+    border-color: #b66a37;
     border-radius: 100px;
 }
 
@@ -427,8 +427,8 @@ header #header-bar a.dropdown-toggle {
 
 #article-list #article-list-menu>.btn-primary {
     color: #fff;
-    background-color: #8f96be;
-    border-color: #8f96be;
+    background-color: #b66a37;
+    border-color: #b66a37;
     border-radius: 100px;
 }
 
@@ -462,7 +462,7 @@ header #header-bar a.dropdown-toggle {
 
   background: white;
 
-  border: solid #cee5ff 1px;
+  border: solid #ffffff 1px;
 
   float: left;
 
@@ -498,7 +498,7 @@ header #header-bar a.dropdown-toggle {
 
 .vote-btn[data-type="up"]:hover::before {
 
-  background: #cee5ff;
+  background: #ffffff;
 
   color: white;
 
@@ -510,7 +510,7 @@ header #header-bar a.dropdown-toggle {
 
 .vote-btn[data-type="up"]:focus::before {
 
-  color: #cee5ff;
+  color: #ffffff;
 
 }
 
@@ -534,15 +534,15 @@ header #header-bar a.dropdown-toggle {
 
   font-size: 22px;
 
-  color: #cee5ff;
+  color: #ffffff;
 
 }
 
 .btn-outline-success {
-    color: #cee5ff;
+    color: #ffffff;
     background-image: none;
     background-color: transparent;
-    border-color: #cee5ff;
+    border-color: #ffffff;
 }
 
 /*비추천버튼*/
@@ -669,8 +669,8 @@ header #header-bar a.dropdown-toggle {
 /*게시판 카테고리*/
 
 #article-list #article-list-category {
-    background: #cee5ff;
-    border-top: 12px solid #8f96be;
+    background: #ffffff;
+    border-top: 12px solid #b66a37;
 }
 
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
@@ -680,15 +680,15 @@ header #header-bar a.dropdown-toggle {
 #article-list #article-list-category>a {
     display: inline-block;
     padding: 15px 34px;
-    background: #eaf4ff;                                                                              /*삳단라인 줄 색버튼*/
+    background: #fff6ea;                                                                              /*삳단라인 줄 색버튼*/
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-    color: #a4b1ff;
+    color: #d48545;
 }
 
 #article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
-    border-bottom: 1px solid #cee5ff;
+    border-bottom: 1.5px solid #b66a37;
     display: table-cell;
     vertical-align: middle;
 }
@@ -702,7 +702,7 @@ body {
 
     height: auto !important;
 
-    background: #eaf4ff;    /* 배경색 코드 입력 */
+    background: #fff6ea;    /* 배경색 코드 입력 */
 
         /* ex) background: #ffffff; */
 
@@ -720,7 +720,7 @@ header .row>div:nth-child(1)>a {
 
     height: 50px;
 
-    background: url(https://i.ibb.co/9gRWv6b/test.png) no-repeat; /* url(로고 경로 입력) */
+    background: url(https://i.ibb.co/X4JjF1G/test2.png) no-repeat; /* url(로고 경로 입력) */
 
     background-size: auto 50px;
 
@@ -739,28 +739,28 @@ header .row>div:nth-child(1)>a>img {
 
 .btn-primary {
     color: #fff;
-    background-color: #8f96be;
+    background-color: #b66a37;
   
-  border-color: #8f96be;
+  border-color: #b66a37;
 }
 
 /*전체틀*/
 
 #main #main-content>div.frame {
     background: #fff;
-    border-right: 2px solid #eaf4ff;
-    border-bottom: 2px solid #eaf4ff;
+    border-right: 2px solid #fff6ea;
+    border-bottom: 2px solid #fff6ea;
 }
 
 /*공지글*/
 
 #article-list>.article-list-row.notice {
-    background-color: #cee5ff;
+    background-color: #ffffff;
 }
 
 
 span.a-badge i.fa.fa-info-circle {
-    color: #8f96be;
+    color: #b66a37;
     vertical-align: -2px !important;
 }
 
@@ -789,13 +789,13 @@ input[type=checkbox],
 input[type=radio],
 .opt
  {
- cursor: url(링크) 0 0, auto !important;    /*현재 x*/           /*이거는 걍 마우스 커서고 밑에는 마우스 누르면 이동하는거*/
+ cursor: url(https://i.ibb.co/DwwnYqV/image.png) 10 7.5, auto !important;    
 }
 
 
 /* 마우스 커서 링크 */
 
-/*
+
 #right-search-form>#right-search-btn,
 #board-info #board-info-bottom #addFavoriteBtn,
 #article-list #article-option-area>#article-option-area-toggle-btn,
@@ -808,10 +808,10 @@ input[type=radio],
 .fr-view img,
 .pull-left,
 a {
- cursor: url(링크) 0 0, auto !important;    
+ cursor: url(https://i.ibb.co/DwwnYqV/image.png) 10 7.5, auto !important;    
 }
 
-*/  /*현재 x**/
+  /*현재 x**/
 
 
 
@@ -872,7 +872,7 @@ header {
 #article-reply-area > .header h5 
 
 a {
-    color: #8f96be;
+    color: #b66a37;
     text-decoration: none;
 }
 
@@ -882,7 +882,7 @@ a {
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
 
-    color: #8f96be;
+    color: #b66a37;
 
     background-color: #fff;
 
@@ -900,7 +900,7 @@ a {
 
 .pagination>li>a, .pagination>li>span {
 
-    color: #8f96be;
+    color: #b66a37;
 
     background-color: #fff;
 
@@ -914,7 +914,7 @@ a {
 
     background-color: #fff;
 
-    border-color: #8f96be;
+    border-color: #b66a37;
 
 }
 
@@ -922,7 +922,7 @@ a {
 
 ::selection {
 
-   background: #cee5ff;
+   background: #ffffff;
 
    color: #fff;
 
@@ -944,7 +944,7 @@ a {
 
     padding: 0 5px;
 
-    color: #8f96be;
+    color: #b66a37;
 
     word-break: break-word;
 
@@ -958,7 +958,7 @@ a {
 
 /*토글*/
 #article-list #article-option-area>#article-option-area-toggle-btn {
-    background: #eaf4ff;
+    background: #fff6ea;
     width: 36px;
     height: 36px;
     font-size: 16px;
@@ -977,7 +977,7 @@ a {
 /*게시글 리스트 마우스 오버시 색상 설정*/
 
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
-    background-color: #eaf4ff
+    background-color: #fff6ea
 }
 
 /*덧글*/
@@ -990,7 +990,7 @@ a {
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
     background: #ffffff;
-    border-bottom: 1px solid #cee5ff;
+    border-bottom: 1px solid #ffffff;
     padding: 0.4em 0.5em;
 }
 
@@ -998,7 +998,7 @@ a {
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu
 
 a {
-    color: #8f96be;
+    color: #b66a37;
     text-decoration: none;
 }
 
@@ -1006,7 +1006,7 @@ a {
 
 .pagination>li>a:hover {
 
-    background-color: #8f96be;
+    background-color: #b66a37;
 
     color: #fff;
 
@@ -1019,24 +1019,24 @@ a {
 
     background-color: #fff;
 
-    color: #8f96be;
+    color: #b66a37;
 
-    border-bottom: 1px solid #8f96be;
-    border-right: 1px solid #8f96be;
-    border-left: 1px solid #8f96be;
-    border-top: 1px solid #8f96be;
+    border-bottom: 1px solid #b66a37;
+    border-right: 1px solid #b66a37;
+    border-left: 1px solid #b66a37;
+    border-top: 1px solid #b66a37;
 
 }
 
 /*게시글 공지부분 배경 색상*/
 #article-list>.article-list-row.notice {
-    background-color: #cee5ff
+    background-color: #ffffff
 }
 
 /*공지글 표시 마크*/
 
 span.a-badge i.fa.fa-info-circle {
-    color: #8f96be;
+    color: #b66a37;
     vertical-align: -2px !important;
 }
 
@@ -1061,7 +1061,8 @@ span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
 
 body {
 
-    background: linear-gradient(to bottom, #eaf4ff, #9affd5);
+    background: linear-gradient(to bottom, #ffdcad, #cc833f);
+    
 
     /* 방향 = to bottom, to right, to left, to top */
 
@@ -1092,7 +1093,7 @@ body {
 
 #board-info #score-area {
     font-size: 14px;
-    color: #cee5ff;
+    color: #b66a37;
     font-weight: normal;
     vertical-align: middle;
     line-height: 18px;
@@ -1103,6 +1104,6 @@ body {
 
 #main .menu-wrapper>a:hover {
 
-     background-color: #eaf4ff
+     background-color: #fff6ea
 
 }
