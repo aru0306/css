@@ -462,7 +462,7 @@ header #header-bar a.dropdown-toggle {
 
   background: white;
 
-  border: solid #ffffff 1px;
+  border: solid #d68425 1px;
 
   float: left;
 
@@ -498,7 +498,7 @@ header #header-bar a.dropdown-toggle {
 
 .vote-btn[data-type="up"]:hover::before {
 
-  background: #ffffff;
+  background: #d68425;
 
   color: white;
 
@@ -510,7 +510,7 @@ header #header-bar a.dropdown-toggle {
 
 .vote-btn[data-type="up"]:focus::before {
 
-  color: #ffffff;
+  color: #d68425;
 
 }
 
@@ -534,15 +534,15 @@ header #header-bar a.dropdown-toggle {
 
   font-size: 22px;
 
-  color: #ffffff;
+  color: #d68425;
 
 }
 
 .btn-outline-success {
-    color: #ffffff;
+    color: #d68425;
     background-image: none;
     background-color: transparent;
-    border-color: #ffffff;
+    border-color: #b66a37;
 }
 
 /*비추천버튼*/
@@ -575,7 +575,7 @@ header #header-bar a.dropdown-toggle {
 
   background: white;
 
-  border: solid #bfcbe8 1px;
+  border: solid #d68425 1px;
 
   float: left;
 
@@ -611,7 +611,7 @@ header #header-bar a.dropdown-toggle {
 
 .vote-btn[data-type="down"]:hover::before {
 
-  background: #bfcbe8;
+  background: #d68425;
 
   color: white;
 
@@ -623,7 +623,7 @@ header #header-bar a.dropdown-toggle {
 
 .vote-btn[data-type="down"]:focus::before {
 
-  color: #bfcbe8;
+  color: #d68425;
 
 }
 
@@ -647,7 +647,7 @@ header #header-bar a.dropdown-toggle {
 
   font-size: 22px;
 
-  color: #bfcbe8;
+  color: #d68425;
 
 
 
@@ -656,10 +656,10 @@ header #header-bar a.dropdown-toggle {
 }
 
 .btn-outline-primary {
-    color: #bfcbe8;
+    color: #c47531;
     background-image: none;
     background-color: transparent;
-    border-color: #0275d8;
+    border-color: #b66a37;
 }
 
 /* 모든 항목 focus시 아웃라인 제거 */
