@@ -1059,16 +1059,46 @@ span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
     }   /*현재x*/
 
 
-body {
-
+html {
     background: linear-gradient(to bottom, #ffdcad, #cc833f);
-    
-
-    /* 방향 = to bottom, to right, to left, to top */
-
-    height: auto;
-
+    height: auto !important;
 }
+
+body {
+    background-image: url('https://i.ibb.co/NLMfvYk/maple.png');
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
+}
+@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 50% {}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+a,
+a:hover,
+a:focus {
+	color: #536be0;
+}
+
+header {
+	padding: 0.5em 0 0.5em 0;
+}
+
 
 /*큰틀*/
 
