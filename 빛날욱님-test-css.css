@@ -178,14 +178,16 @@ header #header-bar a.dropdown-toggle {
 
 
 #board-info #viewers-area #viewers:before {
-
-    content: "트수들이  ";  
+    font-size: 15px;
+    font-weight: normal;
+    content: "날쥐 ";  
 
     cursor: text;
 }
 
 #board-info #viewers-area #viewers:after {
-
+    font-size: 15px;
+    font-weight: normal;
     content: "명 감시중!!";  
 
     cursor: text;
