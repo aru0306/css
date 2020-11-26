@@ -1,0 +1,821 @@
+/**************** 트게더 맨윗부분 ****************/
+
+/* 트게더 로고 */
+
+header>#header-area>a>h1 {
+
+    background: url(https://i.ibb.co/X4JjF1G/test2.png) no-repeat;
+    
+    background-size: 89px 32px; 
+    
+    }
+    
+    /* 맨위 三 , 트게더 , 검색 있는부분 색갈 */
+    
+    header {
+    
+    background: #d48545;
+    
+    border-bottom:4px solid #92511b;
+    
+    }
+    
+    /* 三 자 색상*/
+    
+    .fa-bars:before {
+    
+    color: #92511b;
+    
+    }
+    
+    /* 三 , 트게더로고,검색아이콘, 글 목록들 배경색상*/
+    
+    a {
+    
+    background-color: transparent;
+    
+    }
+    
+    /**************** 트게더 메뉴 ****************/
+    
+    /* 메뉴 배경색 */
+    
+    nav#nav {
+    
+    background: #d48545;
+    
+    }
+    
+    /* 최근방문,즐겨찾기,놀이터 글시색갈 */
+    
+    nav#nav>#nav-upper-shortcut>.dropdown>a {
+    
+    color: white !important;
+    
+    }
+    
+    /* 전체글보기 등등 글시색갈*/
+    
+    nav#nav > .nav-menu-area a {
+    
+    color: white;
+    
+    }
+    
+    /* 메뉴헤더에 보라테달기 */
+    
+    nav#nav>.nav-header {
+    
+    background-image: linear-gradient(120deg,#92511b 17%,#d48545 84%);
+    
+    }
+    
+    /* 메뉴에서 내정보 */
+    
+    nav#nav > #nav-upper #noteDropdownContainer a, 
+    
+    nav#nav > #nav-upper #userDropdownContainer a {
+    
+    color: #92511b;
+    
+    }
+    
+    /**************** 트게더 광고아이콘 (외부사이트광고X) ****************/
+    
+    /* 트게더 광고아이콘 */
+    
+    #header-top-notice strong.notice-badge { 
+    
+    padding-left: 0; padding-right: 0;
+    
+    margin-right: -2em; opacity: 0; 
+    
+    }
+    
+    /* 트게더 광고 배경색 */
+    
+    #header-top-notice {
+    
+    background: #92511b; 
+    
+    }
+    
+    
+    /* 트게더 '광고' 아이콘 (없을시 안써도됨) */
+    
+    
+    #header-top-notice strong.notice-badge { 
+    
+    background: #cfcfcf;
+    
+    color: #333;
+    
+    }
+    
+    
+    /* 트게더 광고 텍스트 색갈*/
+    
+    #header-top-notice a { 
+    
+    color: #ffffff; 
+    
+    }
+    
+    /**************** 현재 트게더 정보 ****************/
+    
+    /* 현재트게더 색갈 부분=(트게더 닉네임,점수,현재보고있는 사람 즐겨찾기 부분) */
+    
+    #board-info { 
+    
+    background: #d48545;
+    
+    border-top-color: #d48545;
+    
+    border-bottom-color: #d48545; 
+    
+    }
+    
+    /* 현재트게더 닉네임색갈 */
+    
+    #board-info>h1>a {
+    
+    color: #ffffff; 
+    
+    }
+    
+    /* 즐겨찾기 색갈 (즐겨찾기 한했을시 색갈입니다.) */
+    
+    #board-info>a.board-right-menu { 
+    
+    border-left-color: #92511b;
+
+    color : #92511b;
+    
+    
+    }
+    
+    /* 트게더 점수*/
+    
+    .fa-trophy:before {
+    
+    color: #ffffff;
+    
+    }
+    
+        
+    
+    #board-info #score-area {
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 동시접속자수 */
+    
+    #board-info #viewers-area {
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 즐겨찾기 */
+    
+    .fa-star:before {
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 더보기 색갈 (즐겨찾기 옆)*/
+    
+    .dropdown-menu{
+    
+    background-color: #92511b;
+    
+    }
+    
+    /* 더보기 글시색갈 */
+    
+    .dropdown-menu>li>a {
+    
+    color: #ffffff;
+    
+    }
+    
+    /**************** 트게더 카테고리 ****************/
+    
+    /* 홈아이콘 */
+    
+    #article-list #article-list-category>a.active { 
+    
+    background: #4a4a4a; 
+    
+    }
+    
+    /* 카테고리 클릭시생기는 색갈 */
+    
+    #article-list #article-list-category>a.active,
+    
+    #article-list #article-list-category>a:hover {
+    
+    background: #383838;
+    
+    }
+    
+    /* 카테고리 배경 (공지,잡담,만화 등 배경색) */
+    
+    #article-list #article-list-category>a {
+    
+    background: #333333;
+    
+    }
+    
+    /* 카테고리 배경색 (카테고리 맨끝에있음)*/
+    
+    #article-list #article-list-category {
+    
+    background: rgb(61, 61, 61);
+    
+    }
+    
+    /* 공지숨기기 (눈 아이콘)현재는 없음으로 적용중 */
+    
+    #article-list #article-option-area>#article-option-area-toggle-btn {
+    
+    display: none;
+    
+    }
+    
+    /**************** 트게더 글  ****************/
+    
+    /* 공지글시 테그 색갈*/
+    
+    #article-list>.article-list-row>.item>.list-header>strong, 
+    
+    #article-list>.article-list-row>.item>.list-header>b {
+    
+    color: red;
+    
+    }
+    
+    /* 공지글 배경색상 */
+    
+    #article-list>.article-list-row {
+    
+    background-color: #333;
+    
+    }
+    
+    /* 글 목록 배경 */
+    
+    #article-list>.article-list-row.notice {
+    
+    background-color: #3f3f3f;
+    
+    }
+    
+    /* 클릭시생기는 색갈 */
+    
+    #article-list>.article-list-row:hover {
+    
+    background: #383838;
+    
+    }
+    
+    /* 글 글시색갈*/
+    
+    #article-list>.article-list-row>.item>a.list-title>.title-value {
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 글 목록사이 색갈 (틈새) */
+    
+    #article-list>.article-list-row>.item>.list-header, 
+    
+    #article-list>.article-list-row>.item>.list-thumbnail, 
+    
+    #article-list>.article-list-row>.item>.list-category, 
+    
+    #article-list>.article-list-row>.item>.list-title, 
+    
+    #article-list>.article-list-row>.item>.list-blocked, 
+    
+    #article-list>.article-list-row>.item>.list-time {
+    
+    border-bottom: 1px solid #e2e2e200;
+    
+    }
+    
+    /* 글쓴이 글시색 */
+    
+    #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    
+    color: rgb(170, 170, 170);
+    
+    }
+    
+    /* 글쓴이 낙내암 제거 */
+    
+    #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    
+    display: none;
+    
+    }
+    
+    /* 아이콘 삭제 */
+    
+    #article-list>.article-list-row>.item>.list-title>.list-writer>span>img,
+    
+    #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged>img,
+    
+    #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged>img,
+    
+    #article-info #article-info-writer>img {
+    
+    display:none;
+    
+    }
+    
+    /** 글 목록사이에 선**/
+    
+    #article-list>.article-list-row>.item>.list-header,
+    
+    #article-list>.article-list-row>.item>.list-thumbnail,
+    
+    #article-list>.article-list-row>.item>.list-category,
+    
+    #article-list>.article-list-row>.item>.list-title,
+    
+    #article-list>.article-list-row>.item>.list-blocked,
+    
+    #article-list>.article-list-row>.item>.list-time {
+    
+    border-bottom: 1px solid #92511b;
+    
+    }
+    
+    /**************** 트게더 글보기  ****************/
+    
+    /* (잡담 글제목) 부분 색갈 */
+    
+    #article-info {
+        
+    background: #92511b;
+    
+    border-bottom: 2px solid #ffffff;
+    
+    color: white;
+    
+    }
+    
+    /* 글 모서리부분 제거 */
+    
+    #article-content-wrapper #article-content {
+    
+    border-left: none;
+    
+    border-right: none;
+    
+    }
+    
+    /* 글제목에서 카테고리 구분 */
+    
+    #article-info h2 .category {
+    
+    border-right: 1px dotted rgb(255, 255, 255); padding-right: 4px;
+    
+    }
+    
+    /* 작성시간,댓글수,추천수,조회수 색갈*/
+    
+    #article-content-wrapper>.header {
+    
+    background: #ffffff;
+    
+    }
+    
+    /* 글 부분 색상 */
+    
+    #article-content-wrapper #article-content, 
+    
+    #article-content-wrapper>.vote-area {
+    
+    background: #b66f3598;
+    
+    }
+    
+    /* 목록,신고,스크랩,수정,삭제 색갈*/
+    
+    #article-content-wrapper>.footer {
+    
+    background: #ffffff;
+    
+    }
+    
+    /* 목록,신고,스크랩,수정,삭제 모서리부분 제거 */
+    
+    #article-content-wrapper>.vote-area {
+    
+    border-left: none;
+    
+    border-right: none;
+    
+    }
+    
+    #article-neighbor-list {
+    
+    border-top: 20px solid white;
+    
+    background: #d48545;
+    
+    }
+    
+    /* 윗글,아랫글 색상 */
+    
+    body {
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 보고있는글 색상*/
+    
+    #article-list>.article-list-row.active {
+    
+    background-color: #b66f3598;
+    
+    }
+    
+    /* 아랫글 부분 글시 */
+    
+    #article-neighbor-list>div>a {
+    
+    color: white;
+    
+    }
+    
+    /* 댓글 숫자색*/
+    
+    #article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    
+    color: #92511b;
+    
+    }
+    
+    /* 좋아요 개수 */
+    
+    #article-list>.article-list-row>.item>.list-header.v0>span {
+    
+    color: #92511b;
+    
+    }
+    
+    #article-list>.article-list-row>.item>.list-header>span {
+    
+    background: #fff;
+    
+    color: #92511b;
+    
+    }
+    
+    /**************** 트게더 글쓰기 ****************/
+    
+    /* ~~~ - 새글 작성하기 색갈 */
+    
+    .h4,
+    
+    h4 {
+    
+    color: white;
+    
+    }
+    
+    /** 카테고리,제목,제목색상,투표 배경색상 **/
+    
+    .frame {
+    
+    background: #b66f3598;
+    
+    }
+    
+    .form-control {
+    
+    background-color: #333;
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 아이콘 배경색 */
+    
+    .fr-toolbar.fr-top {
+    
+    background-color: #92511b;
+    
+    }
+    
+    /** 아이콘 **/
+    
+    .fa-code:before {
+    
+    color: #ffffff;
+    
+    }
+    
+    .fa-smile-o:before,
+    
+    .fa-bold:before,
+    
+    .fa-italic:before,
+    
+    .fa-strikethrough:before,
+    
+    .fa-tint:before,
+    
+    .fa-chain:before,
+    
+    .fa-underline:before {
+    
+    color: #ffffff;
+    
+    }
+    
+    .fa-link:before,
+    
+    .fa-photo:before,
+    
+    .fa-image:before,
+    
+    .fa-picture-o:before,
+    
+    .fa-video-camera:before,
+    
+    .fa-table:before {
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 표 삽입 */
+    
+    .fr-view table td,
+    
+    .fr-view table th {
+    
+    border: 1px solid rgb(255, 255, 255);
+    
+    }
+    
+        
+    
+    .fa-list-ol:before,
+    
+    .fa-list-ul:before,
+    
+    .fa-align-left:before {
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 아이콘 차트 목록 */
+    
+    .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:focus::after {
+    
+    border-top-color: #ffffff;
+    
+    }
+    
+    .fr-toolbar .fr-command.fr-btn.fr-dropdown::after,
+    
+    .fr-popup .fr-command.fr-btn.fr-dropdown::after {
+    
+    border-top-color: #ffffff;
+    
+    }
+    
+    .fr-toolbar .fr-command.fr-btn.fr-disabled::after,
+    
+    .fr-popup .fr-command.fr-btn.fr-disabled::after {
+    
+    border-top-color: #ffffff;
+    
+    }
+    
+    .fr-desktop .fr-command:hover,
+    
+    .fr-desktop .fr-command:focus {
+    
+    color: #ffffff;
+    
+    background: #ffffff;
+    
+    }
+    
+    .fr-desktop .fr-command:hover::after,
+    
+    .fr-desktop .fr-command:focus::after {
+    
+    border-top-color: #ffffff;
+    
+    }
+    
+    .opt {
+    
+    color: #ffffff;
+    
+    }
+    
+    .fr-command.fr-btn+.fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a {
+    
+    padding: 0px 15px;
+    
+    background: #ffffff;
+    
+    color: #ffffff;
+    
+    }
+    
+    .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active,
+    
+    .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active {
+    
+    background: #ffffff;
+    
+    }
+    
+    /* 투표 */
+    
+    /* "투표 추가하기" (배경색,글시색)*/
+    
+    .modal-header {
+    
+    color: white;
+    
+    background: #6f6f6f;
+    
+    }
+    
+    .modal-body {
+    
+    background: #6f6f6f;
+    
+    color: white;
+    
+    }
+    
+    .table-bordered {
+    
+    background: #6f6f6f;
+    
+    }
+    
+    .text-muted {
+    
+    color: white;
+    
+    }
+    
+    .modal-footer {
+    
+    background: #6f6f6f;
+    
+    }
+    
+    /**************** 트게더 댓글  ****************/
+    
+    /* 댓글 배경*/
+    
+    #article-reply-area {
+    
+    background-color: #333;
+    
+    }
+    
+    #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, 
+    
+    #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    
+    color: white;
+    
+    }
+    
+    /* '댓글n개' 글시 색갈*/
+    
+    #article-reply-area > .header h5 {
+    
+    color: #c3c3c3;
+    
+    }
+    
+    /* 댓글작성칸 색갈 */
+    
+    .fr-element {
+    
+    background-color: #333;
+    
+    }
+    
+    /* 댓글 색상*/
+    
+    #article-reply-area #reply-real-area .reply > .reply-header, 
+    
+    #article-reply-area #reply-best-area .reply>.reply-header {
+    
+    background: #4e4e4e;
+    
+    border-bottom: 1px solid #ffffff;
+    
+    }
+    
+    #article-reply-area #reply-real-area .reply > .reply-content, 
+    
+    #article-reply-area #reply-best-area .reply>.reply-content {
+    
+    background-color: #333;
+    
+    }
+    
+    /* 댓글입력 글시색갈 */
+    
+    .fr-box.fr-basic .fr-element {
+    
+    color: #000000;
+    
+    background: #d7d7d7;
+    
+    }
+    
+    /**************** 트게더 맨아레 쪽수부분****************/
+    
+    /* 쪽수,인기글,글쓰기,검색창 색갈 */
+    
+    .pagination-area, #article-list-menu {
+    
+    background: #333;
+    
+    }
+    
+    .btn-default {
+    
+    color: #fff;
+    
+    background-color: #333;
+    
+    }
+    
+    .fa-search:before {
+    
+    color: #ffffff;
+    
+    }
+    
+    /* 쪽수 색갈 */
+    
+    .pagination>.active>a, 
+    
+    .pagination>.active>a:focus, 
+    
+    .pagination>.active>a:hover {
+    
+    border-color: #ddd;
+    
+    color: #ddd;
+    
+    background-color: #1f6fe6;
+    
+    }
+    
+    .pagination>li>a,
+    
+    .pagination>li>span {
+    
+    background-color: #333 !important;
+    
+    border: 1px solid #fff;
+    
+    color: #007eff !important;
+    
+    }
+    
+    /* 글쓰기 버튼 */
+    
+    .btn.square.write {
+    
+    color: #ddd;
+    
+    border-color: #2e6da4;
+    
+    }
+    
+    /* 맨아레 트게더 정보 */
+    
+    footer {
+    
+    background: black;
+    
+    }
+
+/*------------------------------------------------번호 끝 -----------------------------------------------------------------------*/
