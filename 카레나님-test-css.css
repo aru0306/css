@@ -834,7 +834,7 @@ input[type=checkbox],
 input[type=radio],
 .opt
  {
- cursor: url(https://i.ibb.co/2nfZKHm/image.png) 35 65, auto !important;
+ cursor: url() 35 65, auto !important;
 }
 
 
@@ -856,7 +856,7 @@ input[type=radio],
 .fr-view img,
 .pull-left,
 a {
- cursor: url(https://i.ibb.co/2nfZKHm/image.png) 35 65, auto !important;
+ cursor: url() 35 65, auto !important;
 }
 
 
