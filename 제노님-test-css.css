@@ -824,7 +824,7 @@ span.a-badge i.fa.fa-info-circle {
 /* 마우스 커서 포인터 */
 
 
-
+/*
 html,
 body,
 .fr-popup.emoticons,
@@ -838,12 +838,12 @@ input[type=radio],
 }
 
 
-
+*/
 
 /* 마우스 커서 링크 */
 
 
-
+/*
 #right-search-form>#right-search-btn,
 #board-info #board-info-bottom #addFavoriteBtn,
 #article-list #article-option-area>#article-option-area-toggle-btn,
@@ -859,7 +859,7 @@ a {
  cursor: url(https://i.ibb.co/2nfZKHm/image.png) 35 65, auto !important;
 }
 
-
+*/
 
 /*폰트*/
 
